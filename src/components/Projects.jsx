@@ -10,8 +10,8 @@ const projects = [
     icon: Layers,
     description: 'A production-grade full-stack job portal supporting seamless user registration, job search, employer dashboard, and applicant tracking.',
     tech: ['React.js', 'FastAPI', 'PostgreSQL', 'JWT', 'Render'],
-    live: 'https://jobetix-demo.netlify.app',
-    github: 'https://github.com/gangadharreddy065-create/jobetix-frontend',
+    live: 'https://job-portal-frontend-195k.onrender.com/',
+    github: 'https://github.com/gangadharreddy065-create/Full-Stack-Job-Portal-Application',
     mockupType: 'jobetix',
     highlights: [
       'User Authentication & Security with JWT tokens',
@@ -27,8 +27,8 @@ const projects = [
     icon: Cpu,
     description: 'A computer-vision-based attendance tracking platform featuring facial landmarking and anti-proxy verification to automate attendance tracking.',
     tech: ['Python', 'Flask', 'OpenCV', 'MediaPipe', 'SQLite'],
-    live: 'https://attendance-demo.netlify.app',
-    github: 'https://github.com/gangadharreddy065-create/attendance-system',
+    live: 'https://proxy-resistant-attendance-system.onrender.com/',
+    github: 'https://github.com/bhavanisuresh/Proxy-resistant-attendances-ystem',
     mockupType: 'attendance',
     highlights: [
       'Facial Detection & 3D landmark verification via OpenCV & MediaPipe',
@@ -44,8 +44,8 @@ const projects = [
     icon: Server,
     description: 'A high-performance student administration dashboard enabling complete CRUD operations, real-time analytics, and CSV/Excel exports.',
     tech: ['Next.js', 'React', 'TypeScript', 'Prisma', 'PostgreSQL', 'Vercel'],
-    live: 'https://sms-demo.vercel.app',
-    github: 'https://github.com/gangadharreddy065-create/student-management-system',
+    live: 'https://student-management-system-eta-indol.vercel.app/',
+    github: 'https://github.com/gangadharreddy-dev/student-management-system',
     mockupType: 'student',
     highlights: [
       'Next.js 16 App Router & React 19 architecture with server-side rendering',
