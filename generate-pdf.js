@@ -110,7 +110,7 @@ bulletPoint('Developed and deployed a production full-stack job portal supportin
 bulletPoint('Implemented JWT-based authentication and role-based access control, securing API endpoints across two distinct user roles.');
 bulletPoint('Built and integrated RESTful APIs using FastAPI with PostgreSQL for persistent data storage, replacing an earlier SQLite implementation to support production-scale deployment.');
 bulletPoint('Designed a fully responsive React.js frontend and resolved SPA routing and CORS configuration issues during deployment.');
-links('https://jobetix-demo.netlify.app', 'https://github.com/gangadharreddy065-create/jobetix-frontend');
+links('https://job-portal-frontend-195k.onrender.com/', 'https://github.com/gangadharreddy065-create/Full-Stack-Job-Portal-Application');
 
 // Project 2
 projectHeader('Intelligent Attendance Monitoring System with Anti-Proxy Detection', 'Python, Flask, SQLite, OpenCV, MediaPipe, Gunicorn');
