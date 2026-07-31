@@ -117,14 +117,17 @@ projectHeader('Intelligent Attendance Monitoring System with Anti-Proxy Detectio
 bulletPoint('Built a computer-vision-based attendance management system using OpenCV and MediaPipe to detect and prevent proxy attendance through facial/landmark verification.');
 bulletPoint('Designed and implemented secure attendance tracking, record management, and audit features using Flask and SQLite.');
 bulletPoint('Improved attendance verification accuracy and transparency compared to manual/roll-call methods, and deployed the system using Gunicorn for production-style serving.');
-links('https://attendance-demo.netlify.app', 'https://github.com/gangadharreddy065-create/attendance-system');
+links('https://proxy-resistant-attendance-system.onrender.com/', 'https://github.com/bhavanisuresh/Proxy-resistant-attendances-ystem');
+bulletPoint('Developed facial detection and 3D landmark tracking using OpenCV and MediaPipe.');
+bulletPoint('Implemented anti-proxy verification algorithms to prevent photo and video spoofing.');
+bulletPoint('Created automated attendance logging, audit trails, and reporting.');
 
 // Project 3
-projectHeader('Student Management System', 'Next.js 16, React 19, TypeScript, Prisma ORM, PostgreSQL, Vercel');
-bulletPoint('Built a full-stack student management web application using Next.js 16 (App Router) and React 19, enabling administrators to perform complete CRUD operations with real-time dashboard analytics.');
-bulletPoint('Architected the backend with Next.js Route Handlers and Prisma ORM connected to Neon Serverless PostgreSQL, implementing RESTful API endpoints with UUID-based routing.');
-bulletPoint('Developed an interactive data table with client-side search, multi-criteria filtering, and column sorting, with Excel/CSV export support.');
-links('https://sms-demo.vercel.app', 'https://github.com/gangadharreddy065-create/student-management-system');
+projectHeader('Student Management System', 'Next.js, React, TypeScript, Prisma, PostgreSQL, Vercel');
+bulletPoint('Built a full-stack student administration dashboard with complete CRUD functionality.');
+bulletPoint('Utilized Next.js 16 App Router and Prisma ORM connected to Neon Serverless PostgreSQL.');
+bulletPoint('Implemented real-time search, sorting, multi-criteria filtering, and Excel/CSV data exports.');
+links('https://student-management-system-eta-indol.vercel.app/', 'https://github.com/gangadharreddy-dev/student-management-system');
 
 
 // Add Page 2
