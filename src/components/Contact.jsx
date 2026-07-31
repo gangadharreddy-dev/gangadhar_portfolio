@@ -125,7 +125,7 @@ export default function Contact() {
 
               <div className="flex items-center gap-3">
                 <a
-                  href="https://github.com/gangadharreddy065-create"
+                  href="https://github.com/gangadharreddy-dev"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="p-3 rounded-xl bg-white/5 border border-white/10 text-slate-300 hover:text-white hover:border-white/20 transition-all"
@@ -137,7 +137,7 @@ export default function Contact() {
                 </a>
 
                 <a
-                  href="https://www.linkedin.com/in/gangadharreddy065"
+                  href="https://www.linkedin.com/in/t-gangadhar-reddy-149904313/"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="p-3 rounded-xl bg-white/5 border border-white/10 text-slate-300 hover:text-white hover:border-white/20 transition-all"

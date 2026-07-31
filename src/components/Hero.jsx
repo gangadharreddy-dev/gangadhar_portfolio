@@ -184,7 +184,7 @@ export default function Hero() {
               <span className="text-xs font-semibold uppercase tracking-wider text-slate-400">Connect:</span>
               
               <a
-                href="https://github.com/gangadharreddy065-create"
+                href="https://github.com/gangadharreddy-dev"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="p-3 rounded-xl bg-white/5 border border-white/10 text-slate-300 hover:text-white hover:border-white/25 hover:bg-white/10 transition-all shadow-md"
@@ -196,7 +196,7 @@ export default function Hero() {
               </a>
 
               <a
-                href="https://www.linkedin.com/in/gangadharreddy065"
+                href="https://www.linkedin.com/in/t-gangadhar-reddy-149904313/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="p-3 rounded-xl bg-white/5 border border-white/10 text-slate-300 hover:text-white hover:border-white/25 hover:bg-white/10 transition-all shadow-md"

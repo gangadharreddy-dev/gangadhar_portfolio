@@ -200,7 +200,7 @@ gangadhar_portfolio/
 | Channel | Link |
 |---------|------|
 | 📧 **Email** | [gangadharreddy065@gmail.com](mailto:gangadharreddy065@gmail.com) |
-| 💼 **LinkedIn** | [linkedin.com/in/gangadharreddy065](https://www.linkedin.com/in/gangadharreddy065) |
+| 💼 **LinkedIn** | [linkedin.com/in/t-gangadhar-reddy-149904313](https://www.linkedin.com/in/t-gangadhar-reddy-149904313/) |
 | 🐙 **GitHub** | [github.com/gangadharreddy-dev](https://github.com/gangadharreddy-dev) |
 | 📱 **Phone** | +91 9603228769 |
 | 📍 **Location** | Kadapa, Andhra Pradesh, India |

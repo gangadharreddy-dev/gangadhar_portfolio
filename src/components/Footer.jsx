@@ -73,7 +73,7 @@ export default function Footer() {
           {/* Social Icons & Back to Top (3 cols) */}
           <div className="md:col-span-3 flex items-center justify-center md:justify-end gap-3">
             <a
-              href="https://github.com/gangadharreddy065-create"
+              href="https://github.com/gangadharreddy-dev"
               target="_blank"
               rel="noopener noreferrer"
               className="p-2.5 rounded-xl bg-white/5 border border-white/10 text-slate-300 hover:text-white hover:border-white/25 transition-all"
@@ -85,7 +85,7 @@ export default function Footer() {
             </a>
             
             <a
-              href="https://www.linkedin.com/in/gangadharreddy065"
+              href="https://www.linkedin.com/in/t-gangadhar-reddy-149904313/"
               target="_blank"
               rel="noopener noreferrer"
               className="p-2.5 rounded-xl bg-white/5 border border-white/10 text-slate-300 hover:text-white hover:border-white/25 transition-all"
