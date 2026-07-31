@@ -4,7 +4,7 @@
 
 ### A premium, award-winning personal portfolio built with React, Vite, Tailwind CSS & Framer Motion
 
-[![Live Demo](https://img.shields.io/badge/🚀_Live_Demo-Visit_Site-8b5cf6?style=for-the-badge)](https://gangadhar-portfolio.vercel.app)
+[Live Demo](https://img.shields.io/badge/🚀_Live_Demo-Visit_Site-8b5cf6?style=for-the-badge)](https://gangadhar-portfolio.vercel.app)
 [![GitHub](https://img.shields.io/badge/GitHub-Repository-181717?style=for-the-badge&logo=github)](https://github.com/gangadharreddy-dev/gangadhar_portfolio)
 [![License](https://img.shields.io/badge/License-MIT-06b6d4?style=for-the-badge)](LICENSE)
 
