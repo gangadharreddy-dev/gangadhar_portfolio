@@ -136,7 +136,7 @@ npm install
 npm run dev
 ```
 
-The app will be running at [Live Demo]**https://gangadhar-portfolio-gamma.vercel.app/**
+The app will be running at [Live Demo](https://gangadhar-portfolio-gamma.vercel.app/)
 
 ### Build for Production
 
