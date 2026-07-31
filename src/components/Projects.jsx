@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
-import { ExternalLink, ChevronDown, ChevronUp, Layers, Cpu, Server, CheckCircle2 } from 'lucide-react';
+import { ExternalLink, ChevronDown, ChevronUp, Layers, Cpu, Server, Wallet, CheckCircle2 } from 'lucide-react';
 
 const projects = [
   {
@@ -22,6 +22,23 @@ const projects = [
   },
   {
     id: 2,
+    title: 'SettleWise – Expense Splitter & Debt Settlement',
+    category: 'MERN Stack Web App',
+    icon: Wallet,
+    description: 'A modern expense sharing and debt settlement web application designed to track shared bills, calculate equal or custom splits, and simplify group balances.',
+    tech: ['MongoDB', 'Express.js', 'React.js', 'Node.js', 'Vercel'],
+    live: 'https://settlewise-mern.vercel.app/',
+    github: 'https://github.com/gangadharreddy-dev/SettleWise-MERN',
+    mockupType: 'settlewise',
+    highlights: [
+      'MERN Stack Architecture with MongoDB Atlas & Node.js/Express REST APIs',
+      'Smart Debt Minimization Algorithm to simplify multi-user group balances',
+      'Equal & Itemized Expense Splitting with real-time settlement tracking',
+      'Responsive Glassmorphism Dashboard deployed on Vercel'
+    ]
+  },
+  {
+    id: 3,
     title: 'Intelligent Attendance Monitoring System',
     category: 'AI / Computer Vision',
     icon: Cpu,
@@ -38,7 +55,7 @@ const projects = [
     ]
   },
   {
-    id: 3,
+    id: 4,
     title: 'Student Management System',
     category: 'Full Stack Next.js App',
     icon: Server,
@@ -58,6 +75,39 @@ const projects = [
 
 // Helper mock UI component for visual excellence
 function ProjectMockup({ type }) {
+  if (type === 'settlewise') {
+    return (
+      <div className="w-full h-44 rounded-xl bg-space-900 border border-white/10 p-3 overflow-hidden relative group">
+        <div className="flex items-center justify-between pb-2 border-b border-white/10 mb-2">
+          <div className="flex items-center gap-1.5">
+            <span className="text-xs">⚖️</span>
+            <span className="text-[10px] font-bold text-slate-200">SettleWise Dashboard</span>
+          </div>
+          <span className="text-[9px] bg-emerald-500/20 text-emerald-400 px-2 py-0.5 rounded font-mono">MERN Stack</span>
+        </div>
+        <div className="grid grid-cols-2 gap-2 mb-2">
+          <div className="h-10 rounded-lg bg-emerald-500/10 border border-emerald-500/20 p-1.5">
+            <div className="text-[9px] text-slate-400">You are owed</div>
+            <div className="text-xs font-bold text-emerald-400">+$145.50</div>
+          </div>
+          <div className="h-10 rounded-lg bg-rose-500/10 border border-rose-500/20 p-1.5">
+            <div className="text-[9px] text-slate-400">You owe</div>
+            <div className="text-xs font-bold text-rose-400">-$32.00</div>
+          </div>
+        </div>
+        <div className="space-y-1">
+          <div className="h-5 rounded bg-white/5 border border-white/5 px-2 flex items-center justify-between">
+            <span className="text-[9px] text-slate-300">Trip Dinner (4 people)</span>
+            <span className="text-[9px] text-emerald-400 font-semibold">Settled</span>
+          </div>
+          <div className="h-5 rounded bg-white/5 border border-white/5 px-2 flex items-center justify-between">
+            <span className="text-[9px] text-slate-300">Apartment Rent</span>
+            <span className="text-[9px] text-amber-400 font-semibold">Pending</span>
+          </div>
+        </div>
+      </div>
+    );
+  }
   if (type === 'jobetix') {
     return (
       <div className="w-full h-44 rounded-xl bg-space-900 border border-white/10 p-3 overflow-hidden relative group">
@@ -178,7 +228,7 @@ export default function Projects() {
         </div>
 
         {/* Projects Grid */}
-        <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-8">
           {projects.map((project, idx) => {
             const IconComp = project.icon;
             const isExpanded = expandedId === project.id;

@@ -3,7 +3,7 @@ import { motion, useInView } from 'framer-motion';
 import { Award, Code2, Cpu, BrainCircuit, Briefcase, Trophy, Layers } from 'lucide-react';
 
 const stats = [
-  { id: 1, name: 'Projects Completed', value: 3, suffix: '+', icon: Layers, color: 'text-premium-purple bg-premium-purple/10 border-premium-purple/20' },
+  { id: 1, name: 'Projects Completed', value: 4, suffix: '+', icon: Layers, color: 'text-premium-purple bg-premium-purple/10 border-premium-purple/20' },
   { id: 2, name: 'Internships', value: 3, suffix: '', icon: Briefcase, color: 'text-premium-cyan bg-premium-cyan/10 border-premium-cyan/20' },
   { id: 3, name: 'Hackathons', value: 3, suffix: '', icon: Trophy, color: 'text-premium-pink bg-premium-pink/10 border-premium-pink/20' },
   { id: 4, name: 'Certifications', value: 6, suffix: '+', icon: Award, color: 'text-emerald-400 bg-emerald-400/10 border-emerald-400/20' },
